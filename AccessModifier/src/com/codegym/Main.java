@@ -1,0 +1,18 @@
+package com.codegym;
+
+public class Main {
+
+    public static void main(String[] args) {
+        A obj = new A();
+
+        System.out.println(obj.data);//Compile Time Error
+
+        obj.msg();//Compile Time Error
+
+        B obj = new B();//Compile Time Error
+
+        obj.msg();//Compile Time Error
+
+
+    }
+}
